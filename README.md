@@ -5,6 +5,7 @@
 	
 
     <script src="time.js"></script>
+    // or just copy and paste the code from [time.js]
 ### Init:
 	 
 	 var t = new time(1) // 1 = gmt
