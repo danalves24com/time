@@ -1,14 +1,14 @@
 # JS time API
 
 
-###Import:
+### Import:
 	
 
     <script src="time.js"></script>
-###Init:
+### Init:
 	 
 	 var t = new time(1) // 1 = gmt
-###Current time:
+### Current time:
 	
 	t.hour() // get hour of the day
 	t.minute() // get minute of the hour
@@ -20,14 +20,3 @@
 	t.stopClock() // stops the clock
 	var unit = ["ms", "seconds", "minutes"]
 	t.clockTime(unit[0]) // returns how long the clock ran in desired units
-
-```flow
-st=>start: Login
-op=>operation: Login operation
-cond=>condition: Successful Yes or No?
-e=>end: To admin
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
